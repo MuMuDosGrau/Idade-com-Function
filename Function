@@ -1,0 +1,17 @@
+const idade = Number(prompt("digite sua idade..."))
+
+function verificaMaioridade(i) {
+  if (i >= 18) {
+    return true
+  } else {
+    return false
+  }
+}
+
+var maioridade = verificaMaioridade(idade)
+
+if (maioridade) {
+  console.log("Ta grandão")
+}else{
+  console.log("Um mini querido")
+}
